@@ -24,7 +24,7 @@ const DuAnPage = () => {
 
         <div className="grid grid-cols-1 gap-2">
           {reports.map((n) => (
-            <a key={n} href={`/reports/bao-cao-tuan-${n}.docx`} className="block rounded-md bg-neutral-900/70 px-4 py-2 text-white">Tải bao-cao-tuan-{n}</a>
+            <a key={n} href={`/Portfolio/reports/bao-cao-tuan-${n}.docx`} className="block rounded-md bg-neutral-900/70 px-4 py-2 text-white">Tải bao-cao-tuan-{n}</a>
           ))}
         </div>
 

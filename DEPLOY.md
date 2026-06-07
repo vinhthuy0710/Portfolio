@@ -4,7 +4,7 @@ Steps to deploy this portfolio to GitHub Pages
 2. Put them in the `public/reports/` folder (create it if missing).
 3. Commit and push this repository to GitHub (for example a repo named `Portfolio`). If you want the exact URL `https://vinhthuy0710.github.io/Portfolio/`, push to `https://github.com/vinhthuy0710/Portfolio`.
 4. Ensure the default branch is `main` or `master` and push.
-5. GitHub Actions will run the `Build and Deploy to GitHub Pages` workflow which exports the site to `out` and publishes it to the `gh-pages` branch.
+5. GitHub Actions will run the `Build and Deploy to GitHub Pages` workflow which exports the site to `out` and publishes it to the `gh-pages` branch. The app is already configured for a repo project page deploy path.
 6. After the workflow completes, your site should be available at `https://<your-username>.github.io/<repo-name>/` (e.g. https://vinhthuy0710.github.io/Portfolio/). If it does not appear, enable Pages in repository settings and set source to `gh-pages` branch.
 
 Notes:

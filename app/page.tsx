@@ -24,7 +24,7 @@ const MainPage = () => {
 
         <div className="flex justify-center">
           <div className="w-64 h-64 bg-neutral-700/30 rounded-lg overflow-hidden flex items-center justify-center">
-            <img src="/profile.svg" alt="profile" className="object-contain w-full h-full" />
+            <img src="/Portfolio/profile.svg" alt="profile" className="object-contain w-full h-full" />
           </div>
         </div>
       </section>
