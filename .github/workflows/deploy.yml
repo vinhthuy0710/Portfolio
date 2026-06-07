@@ -9,16 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Use Node.js
+        uses: actions/setup-node@v4
         with:
-          bun-version: latest
+          node-version: 18
       - name: Install dependencies
-        run: bun install
+        run: npm install
       - name: Build
-        run: bun run build
+        run: npm run build
       - name: Export static site
-        run: bun run export || true
+        run: npm run export || true
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
